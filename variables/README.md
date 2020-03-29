@@ -1,7 +1,7 @@
-### Variables
+# Variables using
 
-Here you'll learn about simple variables.
+Here you'll learn about simple variables,and how to use vars
 
-#### Book Sections
+## Book Sections
 
 - [Variables and Mutability](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
