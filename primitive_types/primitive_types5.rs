@@ -2,11 +2,12 @@
 // Destructure the `cat` tuple so that the println will work.
 // Execute `rustlings hint primitive_types5` for hints!
 
-// I AM NOT DONE
+// here is deconstruct a tuple
+// 解构元组称之为模式
 
 fn main() {
     let cat = ("Furry McFurson", 3.5);
-    let /* your pattern here */ = cat;
+    let (name,age) = cat;
 
     println!("{} is {} years old.", name, age);
 }
