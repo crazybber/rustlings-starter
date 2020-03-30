@@ -6,13 +6,19 @@ a rust starter,learning by example, based on rustlings.
 
 all examples go on windows 10 x64 in vscode
 
+maybe you need to install following firstly.
+
+~~~bash
+rustup component add rls rust-analysis
+~~~
+
 ## Start on Windows(by scripts)
 
 First, set `ExecutionPolicy` to `RemoteSigned`:
 
-```ps
+~~~ps
 Set-ExecutionPolicy RemoteSigned
-```
+~~~
 
 Then, you can run:
 
@@ -40,3 +46,7 @@ rustup update
 ```
 
 Then, same as above, run `rustlings` to get started.
+
+## more information
+
+(how to setup a rust development enviroment](https://zhuanlan.zhihu.com/p/92172591)
