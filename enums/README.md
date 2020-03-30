@@ -6,7 +6,7 @@ Useful in combination with enums is Rust's "pattern matching" facility, which ma
 
 ## point
 
-+ using match you can also find :[match using](https://doc.rust-lang.org/book/ch06-02-match.html)
++ using match you can also find: [match using](https://doc.rust-lang.org/book/ch06-02-match.html)
 
 ## Book Sections
 

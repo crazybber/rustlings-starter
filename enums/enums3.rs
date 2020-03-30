@@ -1,12 +1,14 @@
 // enums3.rs
 // Address all the TODOs to make the tests pass!
 
-// I AM NOT DONE
+// match fields can hold a type or tuple, so you need to deconstrcut fields.
+
+// check here :https://doc.rust-lang.org/book/ch18-03-pattern-syntax.html
 
 enum Message {
     Quit,
     Echo(String),
-    Move { x: i32, y: i32 },
+    Move { x: u8, y: u8 },
     ChangeColor(u8, u8, u8),
 }
 
@@ -38,12 +40,14 @@ impl State {
         self.position = p;
     }
 
+// check here :https://doc.rust-lang.org/book/ch18-03-pattern-syntax.html
+
     fn process(&mut self, message: Message) {
         match message {
-            Message::ChangeColor =>change_color(message.ChangeColor),
-            Message::Echo => echo(message.Echo),
-            Message::Move => move_position(message.Move),
-            Message::Quit => selfquit(),
+            Message::ChangeColor(a,b,c) =>self.change_color((a,b,c)),
+            Message::Echo(s) => self.echo(s),
+            Message::Move{x,y} => self.move_position(Point{x:x,y:y}),
+            Message::Quit => self.quit(),
         }
     }
 }
