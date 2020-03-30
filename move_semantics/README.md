@@ -1,8 +1,12 @@
-### Move Semantics
+# Move Semantics
 
 These exercises are adapted from [pnkfelix](https://github.com/pnkfelix)'s [Rust Tutorial](https://pnkfelix.github.io/rust-examples-icfp2014/) -- Thank you Felix!!!
 
-#### Book Sections
+## points
+
++ memory management
+
+## Book Sections
 
 For this section, the book links are especially important.
 
