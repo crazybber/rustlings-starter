@@ -2,6 +2,13 @@
 
 handling errors
 
+## points
+
++ pay attension to multi-returned error.
++ need to re-wrap value to Result.
+
++ [Result Type](https://doc.rust-lang.org/std/result/#results-must-be-used)
+
 ## books
 
 For this exercise check out the sections:

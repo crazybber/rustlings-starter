@@ -22,12 +22,12 @@ use std::fmt;
 use std::io;
 
 // PositiveNonzeroInteger is a struct defined below the tests.
-fn read_and_validate(b: &mut dyn io::BufRead) -> Result<PositiveNonzeroInteger, ???> {
+fn read_and_validate(b: &mut dyn io::BufRead) -> Result<PositiveNonzeroInteger, Box<(dyn error::Error)>> {
     let mut line = String::new();
-    b.read_line(&mut line);
-    let num: i64 = line.trim().parse();
-    let answer = PositiveNonzeroInteger::new(num);
-    answer
+    b.read_line(&mut line)?;
+    let num: i64 = line.trim().parse()?;
+    let answer = PositiveNonzeroInteger::new(num)?;
+    Ok(answer)
 }
 
 // This is a test helper function that turns a &str into a BufReader.
@@ -38,6 +38,7 @@ fn test_with_str(s: &str) -> Result<PositiveNonzeroInteger, Box<dyn error::Error
 
 #[test]
 fn test_success() {
+    // a static c str
     let x = test_with_str("42\n");
     assert_eq!(PositiveNonzeroInteger(42), x.unwrap());
 }
@@ -56,6 +57,8 @@ fn test_non_positive() {
 
 #[test]
 fn test_ioerror() {
+
+    // simuate a IO read error
     struct Broken;
     impl io::Read for Broken {
         fn read(&mut self, _buf: &mut [u8]) -> io::Result<usize> {
@@ -70,6 +73,7 @@ fn test_ioerror() {
 #[derive(PartialEq, Debug)]
 struct PositiveNonzeroInteger(u64);
 
+// simuate positive No zero
 impl PositiveNonzeroInteger {
     fn new(value: i64) -> Result<PositiveNonzeroInteger, CreationError> {
         if value == 0 {
