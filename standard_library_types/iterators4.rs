@@ -8,16 +8,12 @@
 // For the most fun don't use:
 // - recursion //不要用递归
 
-
-
-
 pub fn factorial(num: u64) -> u64 {
     // Complete this function to return factorial of num
     match num {
-
         0 => 0,
         1 => 1,
-        num =>  (1..num+1).fold(1, |acc, x| x * acc),
+        num => (1..num + 1).fold(1, |acc, x| x * acc),
     }
 }
 
