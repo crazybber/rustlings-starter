@@ -1,1 +1,18 @@
-For this exercise check out the [Dining Philosophers example](https://doc.rust-lang.org/1.4.0/book/dining-philosophers.html) and the chapter [Concurrency](https://doc.rust-lang.org/book/ch16-01-threads.html) of the Rust Book.
+# thread
+
+thread safe
+
+## points
+
++ [ARC](https://doc.rust-lang.org/book/ch16-03-shared-state.html#atomic-reference-counting-with-arct)
++ UseMutex to synchronize operation
+
+## books
+
+For this exercise check out the
+
++ [Dining Philosophers example](https://doc.rust-lang.org/1.4.0/book/dining-philosophers.html)
+
+and the chapter
+
++ [Concurrency](https://doc.rust-lang.org/book/ch16-01-threads.html) of the Rust Book.
