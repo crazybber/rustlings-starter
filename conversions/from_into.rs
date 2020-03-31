@@ -19,6 +19,7 @@ impl Default for Person {
 }
 
 // I AM NOT DONE
+
 // Your task is to complete this implementation
 // in order for the line `let p = Person::from("Mark,20")` to compile
 // Please note that you'll need to parse the age component into a `usize`
@@ -32,14 +33,21 @@ impl Default for Person {
 // 4. Extract the other element from the split operation and parse it into a `usize` as the age
 // If while parsing the age, something goes wrong, then return the default of Person
 // Otherwise, then return an instantiated Person onject with the results
+
 impl From<&str> for Person {
     fn from(s: &str) -> Person {
+
+        match s {
+            "" => Person::default(),
+
+        }
     }
 }
 
 fn main() {
     // Use the `from` function
     let p1 = Person::from("Mark,20");
+
     // Since From is implemented for Person, we should be able to use Into
     let p2: Person = "Gerald,70".into();
     println!("{:?}", p1);
