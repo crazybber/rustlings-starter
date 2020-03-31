@@ -4,9 +4,11 @@ a rust starter,learning by example, based on rustlings.
 
 ## instructions
 
-all examples go on windows 10 x64 in vscode
++ Notice compile pass don't means : code and procesing are right
 
-maybe you need to install following firstly.
++ all examples go on windows 10 x64 in vscode
+
++ maybe you need to install following firstly.
 
 ~~~bash
 rustup component add rls rust-analysis
