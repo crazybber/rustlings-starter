@@ -5,7 +5,7 @@ thread safe
 ## points
 
 + [ARC](https://doc.rust-lang.org/book/ch16-03-shared-state.html#atomic-reference-counting-with-arct)
-+ UseMutex to synchronize operation
++ Use Mutex to synchronize operation
 
 ## books
 

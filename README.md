@@ -1,6 +1,8 @@
 # rust-starter
 
-a rust starter,learning by example, based on rustlings.
++ a rust starter,learning by example, based on rustlings
++ all test had been finished and passed
++ do your exercise,think then check out this repo, not only copy which means nothing
 
 ## instructions
 
