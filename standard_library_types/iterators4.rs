@@ -1,17 +1,24 @@
 // iterators4.rs
+// Execute `rustlings hint iterators4` for hints.
+// Do not use:
+// - return //不要用return
+// For extra fun don't use:
+// - imperative style loops (for, while) //不要用循环
+// - additional variables //不要用额外变量
+// For the most fun don't use:
+// - recursion //不要用递归
 
-// I AM NOT DONE
+
+
 
 pub fn factorial(num: u64) -> u64 {
     // Complete this function to return factorial of num
-    // Do not use:
-    // - return
-    // For extra fun don't use:
-    // - imperative style loops (for, while)
-    // - additional variables
-    // For the most fun don't use:
-    // - recursion
-    // Execute `rustlings hint iterators4` for hints.
+    match num {
+
+        0 => 0,
+        1 => 1,
+        num =>  (1..num+1).fold(1, |acc, x| x * acc),
+    }
 }
 
 #[cfg(test)]

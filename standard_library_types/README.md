@@ -4,8 +4,9 @@ threads using
 
 ## points
 
-+ [sync Arc](https://doc.rust-lang.org/std/sync/struct.Arc.html)
-+ [primitive.char](https://doc.rust-lang.org/std/primitive.char.html)
++ [sync arc](https://doc.rust-lang.org/std/sync/struct.Arc.html)
++ [turbofish using](https://www.jianshu.com/p/1dd0dbbf539b)
++ Result<Type1,TypeOptional>
 
 ## books and articles
 
