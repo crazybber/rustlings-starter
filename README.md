@@ -1,57 +1,30 @@
 # rust-starter
 
-+ a rust starter,learning by example, based on rustlings
-+ all test had been finished and passed
-+ do your exercise,think then check out this repo, not only copy which means nothing
+- this is exercise classes with answer based on **_[rustlings](https://github.com/rust-lang/rustlings)_**
+- a rust starter for beginers,learning by example classes.
+- **_all test had been finished and compiled pass !_**
+- **_do your exercise,first !!_**, not only copy answer which means nothing!
 
 ## instructions
 
-+ Notice compile pass don't means : code and procesing are right
+- **_firstly, please clone and follow [rustlings](https://github.com/rust-lang/rustlings)_**
 
-+ all examples go on windows 10 x64 in vscode
+- Notice compile pass don't means : code and procesing are right, **_PR are welcome!_**
 
-+ maybe you need to install following firstly.
+- all exercises goes on **windows10 x64 and vscode**
 
-~~~bash
-rustup component add rls rust-analysis
-~~~
+## How to Start
 
-## Start on Windows(by scripts)
-
-First, set `ExecutionPolicy` to `RemoteSigned`:
-
-~~~ps
-Set-ExecutionPolicy RemoteSigned
-~~~
-
-Then, you can run:
-
-~~~ps
-Invoke-WebRequest https://git.io/rustlings-win | Select-Object -ExpandProperty Content | Out-File $env:TMP/install_rustlings.ps1; Unblock-File $env:TMP/install_rustlings.ps1; Invoke-Expression $env:TMP/install_rustlings.ps1
-~~~
-
-To install Rustlings. Same as on MacOS/Linux, you will have access to the `rustlings` command after it.
-
-## Start on Windows or *unix(Manually)
-
-Basically: Clone the repository, checkout to the latest tag, run `cargo install`.
-
-~~~bash
-git clone https://github.com/rust-lang/rustlings
-cd rustlings
-git checkout tags/2.2.1 # or whatever the latest version is (find out at https://github.com/rust-lang/rustlings/releases/latest)
-cargo install --force --path .
-~~~
-
-If there are installation errors, ensure that your toolchain is up to date. For the latest, run:
-
-~~~bash
-rustup update
-~~~
-
-Then, same as above, run `rustlings` to get started.
+[click getting-started](https://github.com/rust-lang/rustlings#getting-started) to start your rust exercise
 
 ## more information
 
-[[翻译]使用Visual Studio Code怎样调试Rust](https://www.cnblogs.com/AlienXu/p/how-to-debug-rust-with-visual-studio-code.html)
+amaybe you need to do following firstly.
+
+```bash
+rustup update
+rustup component add rls rust-analysis
+```
+
+[[翻译]使用 Visual Studio Code 怎样调试 Rust](https://www.cnblogs.com/AlienXu/p/how-to-debug-rust-with-visual-studio-code.html)
 [how to setup a rust development enviroment](https://zhuanlan.zhihu.com/p/92172591)
