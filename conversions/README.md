@@ -8,6 +8,9 @@ Rust offers a multitude of ways to convert a value of a given type into another 
 
 + some details [to_string(), into(), to_owned(), from()](https://rust.cc/article?id=5111a32a-8134-4e4f-b9c1-17a1c354748c)
 
++ implement `from` you get `into`.
++ implement `FromStr` you get `parse`.
+
 The simplest form of type conversion is a type cast expression. It is denoted with the binary operator `as`. For instance, `println!("{}", 1 + 1.0);` would not compile, since `1` is an integer while `1.0` is a float. However, `println!("{}", 1 as f32 + 1.0)` should compile. The exercise [`using_as`](using_as.rs) tries to cover this.
 
 Rust also offers traits that facilitate type conversions upon implementation. These traits can be found under the [`convert`](https://doc.rust-lang.org/std/convert/index.html) module.
