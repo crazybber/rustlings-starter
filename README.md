@@ -19,14 +19,14 @@
 
 ## more information
 
-amaybe you need to do following firstly.
+maybe you need to do following firstly.
 
 ```bash
 rustup update
 rustup component add rls rust-analysis
 ```
 
-setp a development enviroments in vscode:
+setup a development enviroments in vscode:
 
 - [[翻译]使用 Visual Studio Code 怎样调试 Rust](https://www.cnblogs.com/AlienXu/p/how-to-debug-rust-with-visual-studio-code.html)
 - [how to setup a rust development enviroment](https://zhuanlan.zhihu.com/p/92172591)
