@@ -9,7 +9,7 @@
 
 - **_firstly, please clone and follow [rustlings](https://github.com/rust-lang/rustlings)_**
 
-- Notice compile pass don't means : code and procesing are right, **PR are welcome!**
+- **Notice:** compile pass don't means : code and procesing are right, **PR are welcome!**
 
 - all exercises goes on **windows10 x64 and vscode**
 
