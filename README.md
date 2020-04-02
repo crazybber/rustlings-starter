@@ -10,8 +10,8 @@
 - **_clone and follow [rustlings](https://github.com/rust-lang/rustlings)_** when you need help ,come here.
 
 - **Notice:** compile pass don't means : code and procesing are right, **PR are welcome!**
- - if you have a more better solution ,please submit a PR, great thanks.
- - if you want to add a exercise, ,please submit a PR, great thanks.
+ + if you have a more better solution ,please submit a PR, great thanks.
+ + if you want to add a exercise, ,please submit a PR, great thanks.
 
 - all exercises goes on **windows10 x64 and vscode**
 
