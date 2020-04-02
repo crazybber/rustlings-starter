@@ -7,7 +7,7 @@
 
 ## instructions
 
-- **_firstly, please clone and follow [rustlings](https://github.com/rust-lang/rustlings)_**
+- **_clone and follow [rustlings](https://github.com/rust-lang/rustlings)_** when you need help ,come here.
 
 - **Notice:** compile pass don't means : code and procesing are right, **PR are welcome!**
 
@@ -15,7 +15,7 @@
 
 ## How to Start
 
-[click getting-started ,jump to rustlings](https://github.com/rust-lang/rustlings#getting-started) to start your rust exercise classes
+[click here, jump to rustlings repo](https://github.com/rust-lang/rustlings#getting-started) to start your rust exercise classes
 
 ## more information
 
