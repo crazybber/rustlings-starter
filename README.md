@@ -7,28 +7,26 @@
 
 ## instructions
 
-- **_clone and follow [rustlings](https://github.com/rust-lang/rustlings)_** when you need help ,come here.
+- **_firstly, please clone and follow [rustlings](https://github.com/rust-lang/rustlings)_**
 
-- **Notice:** compile pass don't means : code and procesing are right, **PR are welcome!**
-  + if you have a more better solution ,please submit a PR, great thanks.
-  + if you want to add an exercise, ,please submit a PR, great thanks.
+- Notice compile pass don't means : code and procesing are right, **PR are welcome!**
 
 - all exercises goes on **windows10 x64 and vscode**
 
 ## How to Start
 
-[click here, jump to rustlings repo](https://github.com/rust-lang/rustlings#getting-started) to start your rust exercise classes
+[click getting-started ,jump to rustlings](https://github.com/rust-lang/rustlings#getting-started) to start your rust exercise classes
 
 ## more information
 
-maybe you need to do following firstly.
+amaybe you need to do following firstly.
 
 ```bash
 rustup update
 rustup component add rls rust-analysis
 ```
 
-setup a development enviroments in vscode:
+setp a development enviroments in vscode:
 
 - [[翻译]使用 Visual Studio Code 怎样调试 Rust](https://www.cnblogs.com/AlienXu/p/how-to-debug-rust-with-visual-studio-code.html)
 - [how to setup a rust development enviroment](https://zhuanlan.zhihu.com/p/92172591)
